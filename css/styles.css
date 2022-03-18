@@ -340,19 +340,21 @@ img {
   color: var(--primery-white-color);
 }
 
+/* Секция Команда */
+
 .team {
   background-color: var(--secondary-bg-color);
 }
 
-.team .section-title {
+.team__title {
   margin-bottom: 50px;
 }
 
-.people {
+.team__list {
   display: flex;
 }
 
-.people .item {
+.team__member {
   width: 270px;
   background-color: var(--primery-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -360,15 +362,15 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.people .item:not(:last-child) {
+.team__member:not(:last-child) {
   margin-right: var(--card-set-gap);
 }
 
-.people .card-content {
+.team__content {
   padding: 30px 0px;
 }
 
-.people .title {
+.team__name {
   margin-bottom: 10px;
 
   color: var(--title-text-color);
@@ -378,19 +380,19 @@ img {
   text-align: center;
 }
 
-.people .text {
+.team__pos {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 
-.social-links {
+.socials-list {
   display: flex;
   justify-content: center;
 }
 
-.social-item {
+.socials__item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -398,11 +400,11 @@ img {
   height: 44px;
 }
 
-.social-item:not(:last-child) {
+.socials__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-link {
+.socials__link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -415,14 +417,14 @@ img {
   fill: #afb1b8;
 }
 
-.social-links .icon {
+.socials__icon {
   display: block;
   width: 20px;
   height: 20px;
 }
 
-.social-link:hover,
-.social-link:focus {
+.socials__link:hover,
+.socials__link:focus {
   background-color: var(--accent-color);
   fill: var(--primery-white-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
