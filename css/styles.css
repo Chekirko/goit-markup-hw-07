@@ -30,7 +30,7 @@ body {
   padding: 94px 0px;
 }
 
-.section__title {
+.section-title {
   color: var(--title-text-color);
 
   font-size: 36px;
@@ -297,27 +297,27 @@ img {
 
 /* activity styles */
 
-.section.activity {
+.activity {
   padding-top: 0px;
 }
 
-.activity .section-title {
+.activity__title {
   margin-bottom: 50px;
 }
 
-.acts {
+.activity__list {
   display: flex;
 }
 
-.acts-item {
+.activity__item {
   position: relative;
 }
 
-.acts-item:not(:last-child) {
+.activity__item:not(:last-child) {
   margin-right: var(--card-set-gap);
 }
 
-.activity-overlay {
+.activity__overlay {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -330,7 +330,7 @@ img {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.acts-text {
+.activity__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
