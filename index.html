@@ -309,64 +309,64 @@
         </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop backdrop--hidden" data-modal>
         <div class="modal">
-            <button type="button" class="modal-btn" data-modal-close><svg class="modal-icon">
+            <button type="button" class="modal__btn" data-modal-close><svg class="modal__icon">
                     <use href="./symbol-defs.svg#icon-close-black"></use>
                 </svg></button>
 
-            <div class="modal-container">
-                <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+            <div class="modal__container">
+                <h2 class="modal__title">Оставьте свои данные, мы вам перезвоним</h2>
 
-                <form action="" class="modal-form" autocomplete="off">
-                    <ul class="modal-list list">
-                        <li class="modal-item">
-                            <label for="name" class="modal-label">Имя</label>
+                <form action="" class="modal__form" autocomplete="off">
+                    <ul class="modal__list list">
+                        <li class="modal__item">
+                            <label for="name" class="modal__label">Имя</label>
 
-                            <div class="input-thumb">
-                                <input type="text" class="modal-input" name="username" id="name">
+                            <div class="modal__thumb">
+                                <input type="text" class="modal__input" name="username" id="name">
 
-                                <svg class="modal-icon name-icon">
+                                <svg class="modal__icon modal__icon--transformed">
                                     <use href="./symbol-defs.svg#icon-person-black"></use>
                                 </svg>
                             </div>
                         </li>
-                        <li class="modal-item">
-                            <label for="phone_number" class="modal-label">Телефон</label>
-                            <div class="input-thumb">
-                                <input type="tel" class="modal-input phone-input" name="phone_number" id="phone_number">
-                                <svg class="phone-icon modal-icon">
+                        <li class="modal__item">
+                            <label for="phone_number" class="modal__label">Телефон</label>
+                            <div class="modal__thumb">
+                                <input type="tel" class="modal__input" name="phone_number" id="phone_number">
+                                <svg class="modal__icon modal__icon--transformed">
                                     <use href="./symbol-defs.svg#icon-phone-black"></use>
                                 </svg>
                             </div>
                         </li>
-                        <li class="modal-item">
-                            <label for="email" class="modal-label">Почта</label>
-                            <div class="input-thumb">
-                                <input type="email" class="modal-input email-input" name="email" id="email">
-                                <svg class="email-icon modal-icon">
+                        <li class="modal__item">
+                            <label for="email" class="modal__label">Почта</label>
+                            <div class="modal__thumb">
+                                <input type="email" class="modal__input" name="email" id="email">
+                                <svg class="modal__icon modal__icon--transformed">
                                     <use href="./symbol-defs.svg#icon-email-black"></use>
                                 </svg>
                             </div>
                         </li>
-                        <li class="modal-item">
-                            <label for="comment" class="modal-label">Комментарий</label>
-                            <textarea class="modal-textarea" name="comment" placeholder="Введите текст"
+                        <li class="modal__item">
+                            <label for="comment" class="modal__label">Комментарий</label>
+                            <textarea class="modal__textarea" name="comment" placeholder="Введите текст"
                                 id="comment"></textarea>
                         </li>
                     </ul>
 
 
                     <div class="agreement">
-                        <label for="agreement" class="agreement-label">
-                            <input type="checkbox" class="agreement-checkbox" name="agreement" value="yes"
-                                id="agreement"><span class="checkbox-icon"></span> Соглашаюсь с рассылкой и
-                            принимаю <a class="terms-link" href="">Условия
+                        <label for="agreement" class="agreement__label">
+                            <input type="checkbox" class="agreement__checkbox" name="agreement" value="yes"
+                                id="agreement"><span class="agreement__icon"></span> Соглашаюсь с рассылкой и
+                            принимаю <a class="agreement__link" href="">Условия
                                 договора</a>
                         </label>
                     </div>
 
-                    <button type="submit" class="sending-btn btn">Отправить</button>
+                    <button type="submit" class="agreement__btn btn">Отправить</button>
                 </form>
 
             </div>
