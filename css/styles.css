@@ -430,29 +430,31 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+/* Секция Клиенты */
+
 .clients {
   padding-top: 90px;
 }
 
-.clients .section-title {
+.clients__title {
   margin-bottom: 50px;
 }
 
-.companies {
+.clients__list {
   display: flex;
   justify-content: center;
 }
 
-.companies-item {
+.clients__item {
   width: 170px;
   height: 92px;
 }
 
-.companies-item:not(:last-child) {
+.clients__item:not(:last-child) {
   margin-right: var(--card-set-gap);
 }
 
-.companies-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -464,14 +466,14 @@ img {
   fill: rgba(175, 177, 184, 1);
 }
 
-.companies .icon {
+.clients__icon {
   display: block;
   width: 106px;
   height: 60px;
 }
 
-.companies-link:hover,
-.companies-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
