@@ -43,3 +43,12 @@
   background-color: $accent-color;
   color: $primery-white-color;
 }
+
+%footer-title {
+  margin-bottom: 20px;
+  color: $primery-white-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
